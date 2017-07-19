@@ -18,7 +18,7 @@ service: public-example
 # frameworkVersion: "=X.X.X"
 
 provider:
-  name: aws
+  name: openwhisk
   runtime: nodejs6.10
 
 # you can overwrite defaults here
