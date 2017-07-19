@@ -1,0 +1,22 @@
+{
+  "name": "public-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eloff/public-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eloff/public-example/issues"
+  },
+  "homepage": "https://github.com/eloff/public-example#readme",
+  "dependencies": {
+    "yamljs": "^0.3.0"
+  }
+}

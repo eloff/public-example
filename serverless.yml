@@ -54,9 +54,16 @@ provider:
 #    - exclude-me.js
 #    - exclude-me-dir/**
 
+#package:
+#  individually: true
+
 functions:
   hello:
     handler: handler.hello
+  foo:
+    handler: handler.foo
+  bar:
+    handler: handler.bar
 
 #    The following are a few example events you can configure
 #    NOTE: Please make sure to change your handler code to work with those events
