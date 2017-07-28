@@ -19,7 +19,10 @@ service: public-example
 
 provider:
   name: openwhisk
-  runtime: nodejs6.10
+  ignore_certs: true
+
+plugins:
+  - serverless-openwhisk
 
 # you can overwrite defaults here
 #  stage: dev
@@ -60,10 +63,6 @@ provider:
 functions:
   hello:
     handler: handler.hello
-  foo:
-    handler: handler.foo
-  bar:
-    handler: handler.bar
 
 #    The following are a few example events you can configure
 #    NOTE: Please make sure to change your handler code to work with those events
